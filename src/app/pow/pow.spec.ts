@@ -1,5 +1,5 @@
 
-import { pow } from '/.pow';
+import { pow } from './pow';
 
 describe('pow', () => {
     it ('Should return 1 if n = 0', () => {
