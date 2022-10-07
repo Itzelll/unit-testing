@@ -26,8 +26,8 @@ describe('factorial', () => {
         expect(result).toBe(120);
     })
 
-    it ('Should return 0 if n > 6', () => {
-        const result = fact(6);
+    it ('Should return 0 if n > 16', () => {
+        const result = fact(17);
         expect(result).toBe(0);
     })
 });
